@@ -11,6 +11,7 @@ import Area from './Components/Area/Area';
 import SpecificArea from './Components/SpecificArea/SpecificArea';
   const router =  createBrowserRouter([{path:"", element:<Layout/>, children:[
     {path:"",element:<Home/>},
+    {path:"/yummy/",element:<Home/>},
     {path:"/home", element:<Home/>},
     {path:"/area", element:<Area/>},
     {path:"/area/specificarea/:specificAreaParam", element:<SpecificArea/>},
