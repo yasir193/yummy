@@ -29,7 +29,7 @@ export default function Layout() {
                 <li className="nav-item">
                     <Link
                     className={
-                        location.pathname === "/home" ? "nav-link active" : location.pathname === "/" ? "nav-link active" : "nav-link"
+                        location.pathname === "/home" ? "nav-link active" : location.pathname === "/" ? "nav-link active" : location.pathname === "/yummy/" ? "nav-link active" : "nav-link"
                     }
                     aria-current="page"
                     to="home"
