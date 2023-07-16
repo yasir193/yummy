@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+    .navbar-brand{
+        width:78%;
+        margin-right: 0px;
+    }
+    img.det{
+        
+        width: 70% !important;
+        margin: auto;
+        
+    }
+}
