@@ -15,7 +15,7 @@ import SpecificArea from './Components/SpecificArea/SpecificArea';
     {path:"/home", element:<Home/>},
     {path:"/area", element:<Area/>},
     {path:"/area/specificarea/:specificAreaParam", element:<SpecificArea/>},
-    {path:"details/:id", element:<Details/>},
+    {path:"/yummy/details/:id", element:<Details/>},
     {path:"/search/searchbyname" , element:<SearchByName/>},
     {path:"/category/specificcategory/:specificCategory" , element:<SpecificCategory/>},
     {path:"/search/searchbyletter" , element:<SearchByLetter/>},
