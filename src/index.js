@@ -4,7 +4,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
-import $ from 'jquery';
 import './index.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import "../node_modules/scrollreveal/dist/scrollreveal.min";
